@@ -19,7 +19,6 @@ import android.app.ProgressDialog;
 import android.net.http.AndroidHttpClient;
 import android.os.AsyncTask;
 import android.text.Html;
-import android.view.View;
 import android.widget.ArrayAdapter;
 
 public class AsyncWolfram extends AsyncTask<Void, Integer, Void> {

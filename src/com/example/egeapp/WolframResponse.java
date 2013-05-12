@@ -15,7 +15,7 @@ public class WolframResponse extends Activity
 
 	String query;
 	TextView tw;
-	ArrayAdapter adapter;
+	ArrayAdapter<String> adapter;
 	ActionBar bar;
 	String[] podNames, podPlaintext;
 	boolean firstTimeExecute;

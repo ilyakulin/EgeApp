@@ -39,6 +39,7 @@ public class VKSendPhotos extends Activity implements OnClickListener {
 	}
 
 	boolean isTokenOK() {
+		// тут тоже затмение
 		Long expires_in = settings.getLong(SH.VK_SETTINGS_EXPIRES_IN, 86400) * 1000;
 		Long request_time = settings.getLong(SH.VK_SETTINGS_REQUEST_TIME, 0L);
 		Long currentTime = System.currentTimeMillis();
@@ -47,7 +48,7 @@ public class VKSendPhotos extends Activity implements OnClickListener {
 		return b;
 	}
 
-	@SuppressWarnings("deprecation")
+
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		// TODO Auto-generated method stub
@@ -75,8 +76,7 @@ public class VKSendPhotos extends Activity implements OnClickListener {
 					String[] projection = {MediaStore.Images.Media._ID};
 					String sort = MediaStore.Images.Media._ID + " DESC";
 					// запрос крошечный. по количеству фоток с их айди.
-					// точно на быстрой памяти устройства. ничего не повиснет.
-					@SuppressWarnings("deprecation")
+					// точно на быстрой памяти устройства. ничего не повиснет.					
 					Cursor myCursor = getContentResolver().query(
 							MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
 							projection, null, null, sort);
@@ -124,7 +124,7 @@ public class VKSendPhotos extends Activity implements OnClickListener {
 		switch (v.getId()) {
 			case R.id.button_send_photo : {
 
-				//if (isUserLoggedInAlready())
+				//Тут у компилятора было солнечное затмение. по другому не работало
 				boolean b1 =  isUserLoggedInAlready();
 				boolean b2 =  isTokenOK();
 				if(!b1||!b2)
