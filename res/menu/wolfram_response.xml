@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--     <group android:id="@+id/grup_wolfram_copy_answer"> -->
+<!--             <item -->
+<!--         android:id="@+id/item_wolfram_copy_answer" -->
+<!--         android:icon="@android:drawable/ic_menu_edit" -->
+<!--         android:title="copy_answer" -->
+<!--         android:showAsAction="always" -->
+<!--         android:visible="false"> -->
+        
+<!--     </item> -->
+<!--     </group> -->
+
+
+</menu>

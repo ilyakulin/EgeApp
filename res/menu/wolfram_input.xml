@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_item_wolfram_keyboard"
+        android:icon="@android:drawable/ic_menu_add" 
+        android:showAsAction="always"
+        android:numericShortcut="2"
+        android:visible="true" android:title="keyboard" android:enabled="true" android:orderInCategory="101" android:menuCategory="container"/>
+
+</menu>

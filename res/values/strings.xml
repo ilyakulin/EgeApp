@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EGEApp</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="caption">#2D8312</color>
+
+    <string name="title_activity_formuls">Formuls</string>
+    <string name="title_activity_auth_vk">AuthVK</string>
+    <string name="layout_greetings_caption">Возможности программы:</string>
+    <string name="text_weclome_screen_button">Вперед!</string>
+    <string name="auth_adr">https://oauth.vk.com/authorize?client_id=3600704\u0026scope=friends,photos,messages\u0026redirect_uri=https://oauth.vk.com/blank.html\u0026display=touch\u0026response_type=token</string>
+    <string name="overall">Приветствуем Вас в программе, созданной для помощи при подготовке к ЕГЭ. Навигация осуществляется по основным разделам расположенным в главном меню.</string>
+    <string name="russian">В разделе русский язык расположен сервис для проверки корректности написания слов.</string>
+    <string name="maths">В разделе "Математика" расположен справочник формула. И оболочка для взаимодействия с WolframAlpha.</string>
+
+    <string-array name="description">
+        <item>@string/overall</item>
+        <item>@string/russian</item>
+        <item>@string/maths</item>
+    </string-array>
+
+    <string name="title_activity_vk_user_item">VK_user_item</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_vk_friends_list">VK_friends_list</string>
+    <string name="title_activity_vksend_photos">VKSendPhotos</string>
+    <string name="title_activity_wolfram_input">WolframInput</string>
+    <string name="title_activity_wolfram_response">WolframResponse</string>
+
+</resources>

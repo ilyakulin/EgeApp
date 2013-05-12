@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout
+        android:id="@+id/laylin_fragment_additional_row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_wolfragment_additional_sin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="sin" />
+        
+        <Button
+            android:id="@+id/button_wolfragment_additional_log"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="log" />
+        <Button
+            android:id="@+id/button_wolfragment_additional_derivate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="&#402;'(x)" />
+        <Button
+            android:id="@+id/button_wolfragment_additional_e"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="e" />
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/laylin_fragment_additional_row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_wolfragment_additional_cos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="cos" />
+        
+        <Button
+            android:id="@+id/button_wolfragment_additional_ln"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ln" />
+        <Button
+            android:id="@+id/button_wolfragment_additional_derivate_second"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="&#402;''(x)" />
+        <Button
+            android:id="@+id/button_wolfragment_additional_pi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="&#928;" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/laylin_fragment_additional_row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_wolfragment_additional_tg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="tg" />
+        
+        <Button
+            android:id="@+id/button_wolfragment_additional_abs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="|abs|" />
+        <Button
+            android:id="@+id/button_wolfragment_additional_power"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="^" />
+        <Button
+            android:id="@+id/button_wolfragment_additional_percentt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="%" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/laylin_fragment_additional_row4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_wolfragment_additional_ctg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ctg" />
+        <Button
+            android:id="@+id/button_wolfragment_additional_y"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Y" />
+        <Button
+            android:id="@+id/button_wolfragment_additional_squareroot"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="&#8730;" />
+        <Button
+            android:id="@+id/button_wolfragment_additional_limit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="lim" />
+    </LinearLayout>
+
+    
+    
+
+</LinearLayout>

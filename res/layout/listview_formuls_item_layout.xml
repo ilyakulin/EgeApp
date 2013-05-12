@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/listview_textview_item_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/listview_button_item_wolframbutton"
+        android:layout_alignBottom="@id/listview_button_item_wolframbutton"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="Name of formula"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/listview_button_item_wolframbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/wolframalphalogo"
+        android:scaleType="fitCenter"
+         
+        />
+
+</RelativeLayout>
